@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Início – Aliança Sistema de Segurança</title>
+  <link rel="stylesheet" href="style.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+<nav style="background: #fff; box-shadow: 0 2px 4px rgba(0,0,0,0.1); position: sticky; top: 0; width: 100%; z-index: 1000;">
+  <div style="max-width: 1200px; margin: auto; display: flex; align-items: center; justify-content: space-between; padding: 10px 20px;">
+    <!-- Logo -->
+    <div class="nav-logo">
+      <img src="assets/logo.svg" alt="Aliança Sistema de Segurança" style="height: 160px;">
+    </div>
+    <div class="nav-links" style="display: flex;">
+      <a href="index.html">Início</a>
+      <a href="servicos.html">Serviços</a>
+      <a href="sobre.html">Sobre</a>
+      <a href="contato.html">Contato</a>
+    </div>
+    <div class="social-top">
+      <a href="https://wa.me/5561984005431" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+      <a href="https://www.facebook.com" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://www.instagram.com/aliancaseguranca_/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+    </div>
+  </div>
+</nav>
+
+
+<section class="hero" style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;">
+  <div style="flex: 1; min-width: 300px;">
+    <h1>Segurança Eletrônica 24 Horas</h1>
+    <p>Soluções completas para residências e empresas com tecnologia de ponta e atendimento humanizado.</p>
+    <a href="contato.html" class="btn">📞 Solicite uma visita gratuita</a>
+  </div>
+  <div style="flex: 1; text-align: center; min-width: 300px;">
+    <img src="assets/img/hero_img.svg" alt="Monitoramento" style="max-width: 100%; height: auto;">
+  </div>
+</section>
+
+
+<section class="beneficios">
+  <h2>Nossas Especialidades</h2>
+  <div class="cards">
+    <div class="card">📹 <strong>Câmeras de Segurança</strong><p>Monitoramento em tempo real</p></div>
+    <div class="card">🚨 <strong>Alarmes Monitorados</strong><p>Resposta imediata</p></div>
+    <div class="card">🏢 <strong>Portaria Remota</strong><p>Controle de acesso eficaz</p></div>
+    <div class="card">📱 <strong>App Integrado</strong><p>Acesso pelo celular</p></div>
+  </div>
+</section>
+
+<section class="testemunhos">
+  <h2>O que dizem nossos clientes</h2>
+  <blockquote>"Serviço de excelência. Atendem rápido e com atenção aos detalhes."</blockquote>
+  <cite>– João Lima, Águas Claras</cite>
+</section>
+
+<a href="https://wa.me/5561984005431" class="btn-whatsapp" target="_blank">📲 Atendimento via WhatsApp</a>
+
+<style>
+  .nav-links a {
+    color: #333;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    padding-bottom: 5px;
+    transition: color 0.3s, border-bottom 0.3s;
+  }
+  .nav-links a:hover {
+    color: #c00;
+    border-bottom: 2px solid #c00;
+  }
+  body { margin: 0; }
+
+  .social-top {
+    display: flex;
+    gap: 15px;
+    margin-left: 20px;
+  }
+  .social-top a {
+    color: #333;
+    font-size: 20px;
+    transition: color 0.3s;
+  }
+  .social-top a:hover {
+    color: #c00;
+  }
+
+
+.hero {
+  background: linear-gradient(to right, #e30613, #830000);
+  color: white;
+  padding: 80px 20px;
+  text-align: center;
+}
+.hero h1 { font-size: 2.5em; margin-bottom: 10px; }
+.hero p { font-size: 1.2em; margin-bottom: 20px; }
+.hero .btn {
+  background: #fff;
+  color: #e30613;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.beneficios {
+  padding: 50px 20px;
+  background: #f9f9f9;
+  text-align: center;
+}
+.beneficios h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+.card {
+  background: white;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.testemunhos {
+  background: #fff;
+  padding: 50px 20px;
+  text-align: center;
+}
+.testemunhos h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+.testemunhos blockquote {
+  font-style: italic;
+  color: #555;
+}
+.testemunhos cite {
+  display: block;
+  margin-top: 10px;
+  color: #333;
+  font-weight: bold;
+}
+
+.btn-whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25D366;
+  color: white;
+  padding: 12px 18px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  z-index: 999;
+}
+
+</style>
+
+<header>
+  <div class="container">
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+  </div>
+
+<div style="position: absolute; top: 20px; right: 20px;">
+  
+  <a href="#" target="_blank" style="margin-left: 10px;">
+    <img src="assets/logo.svg" alt="" width="24">
+  </a>
+  <a href="#" target="_blank" style="margin-left: 10px;">
+    <img src="assets/logo.svg" alt="" width="24">
+  </a>
+</div>
+</header>
+
+
+
+<section class="hero-images">
+  <div class="hero-gallery">
+    
+    
+    
+    
+  </div>
+  <div class="hero-text">
+    
+    
+    
+  </div>
+</section>
+
+
+
+
+
+
+<section style="background: #e30613; padding: 40px 20px; text-align: center;">
+  <div style="max-width: 800px; margin: auto;">
+    <h2 style="color: white; font-size: 2em; margin-bottom: 10px;">Agora seu alarme com até 40% de desconto*</h2>
+    <p style="color: white; font-size: 1.2em; margin-top: 0;">Segurança com tecnologia de ponta</p>
+    <a href="orcamento.html" class="btn" style="margin-top: 20px; display: inline-block; background: white; color: #e30613; padding: 12px 24px; text-decoration: none; font-weight: bold; border-radius: 5px;">Calcule Agora</a>
+  </div>
+</section>
+
+
+
+<footer>
+  <p>&copy; 2025 Aliança Sistema de Segurança. Todos os direitos reservados.</p>
+</footer>
+<script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,7 @@
+SITE ALIANÇA - INSTALAÇÃO
+
+Envie TODOS os arquivos e a pasta imagens para a RAIZ do repositório GitHub Pages.
+Mantenha o arquivo CNAME. Não altere os registros DNS existentes.
+No GitHub, confira Settings > Pages e a opção Enforce HTTPS quando disponível.
+As fotografias foram extraídas do HTML enviado e salvas separadamente.
+Confira o site publicado e revise informações comerciais antes da divulgação.
